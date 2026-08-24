@@ -1,7 +1,6 @@
 # 📄 Curriculum Vitae — Zaki Naufal
 
-Information Systems @ Universitas Airlangga · BSI Scholar  
-Building toward Financial Infrastructure Engineering.
+Information Systems @ Universitas Airlangga · BSI Scholarship
 
 
 ## Contact
