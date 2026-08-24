@@ -1,6 +1,6 @@
-# 📄 Curriculum Vitae — Zaki Naufal
+# 📄 Curriculum Vitae — Muhammad Naufal Zaki
 
-Information Systems @ Universitas Airlangga · BSI Scholarship
+Information Systems | Airlangga University
 
 
 ## Contact
