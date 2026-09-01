@@ -390,11 +390,10 @@ function HomeContent({ language }: { language: Language }) {
           count={String(experiences.length).padStart(2, "0")}
         />
         <div className="experience-list">
-          {experiences.map((item, index) => (
+          {experiences.map((item) => (
             <details
               className="experience-item"
               key={`${item.organization}-${item.period}`}
-              open={index === 0 ? true : undefined}
             >
               <summary>
                 <span className="experience-mark">
