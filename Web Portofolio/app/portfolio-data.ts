@@ -77,20 +77,20 @@ export const experiences = [
     ],
     bullets: [
       {
-        en: "Initiated and managed partnership discussions with 5 external organizations, aligning collaboration objectives, deliverables, timelines, and operational requirements.",
-        id: "Menginisiasi dan mengelola negosiasi kemitraan strategis dengan 5 organisasi eksternal, menyelaraskan tujuan kolaborasi, deliverables, linimasa kerja, dan kebutuhan operasional.",
+        en: "Secured and managed partnerships with 5 external organizations, aligning collaboration objectives, deliverables, timelines, and operational requirements.",
+        id: "Menjalin dan mengelola kemitraan dengan 5 organisasi eksternal, menyelaraskan tujuan kolaborasi, deliverables, linimasa kerja, serta kebutuhan operasional.",
       },
       {
-        en: "Coordinated the end-to-end execution of 3 partner and community events hosted at Loka Coffee, from initial planning to on-site implementation.",
-        id: "Mengoordinasikan pelaksanaan 3 acara mitra dan komunitas di Loka Coffee secara menyeluruh (*end-to-end*), mulai dari perancangan konsep awal hingga eksekusi teknis di lokasi.",
+        en: "Coordinated 3 partner and community events from planning through on-site execution, managing partner requirements, timelines, and operational logistics.",
+        id: "Mengoordinasikan 3 acara mitra dan komunitas mulai dari tahap perencanaan hingga eksekusi di lokasi, mengelola kebutuhan mitra, jadwal acara, serta logistik operasional.",
       },
       {
-        en: "Balanced the needs and interests of Loka Coffee and external partners to develop mutually beneficial collaboration arrangements.",
-        id: "Menyelaraskan kebutuhan dan kepentingan Loka Coffee serta mitra eksternal untuk membangun skema kerja sama yang saling menguntungkan.",
+        en: "Negotiated collaboration arrangements between Loka Coffee and external partners, balancing business objectives with partner needs to establish mutually beneficial partnerships.",
+        id: "Menegosiasikan kesepakatan kolaborasi antara Loka Coffee dan mitra eksternal, menyeimbangkan target bisnis dengan kebutuhan mitra guna membangun kerja sama yang saling menguntungkan.",
       },
       {
-        en: "Monitored monthly Instagram performance and refined content strategies, contributing to an increase in monthly views from 9.5K to 40K and a peak account reach of 8,787.",
-        id: "Mengevaluasi performa bulanan Instagram dan menyempurnakan strategi konten, berhasil meningkatkan tayangan bulanan dari 9,5K ke 40K dengan jangkauan tertinggi mencapai 8.787 akun.",
+        en: "Monitored monthly Instagram performance and adjusted content strategies, contributing to a 321% increase in monthly views from 9.5K to 40K, with peak account reach of 8,787.",
+        id: "Memantau performa bulanan Instagram dan menyesuaikan strategi konten, berkontribusi pada peningkatan tayangan bulanan sebesar 321% dari 9,5K menjadi 40K dengan jangkauan akun tertinggi mencapai 8.787.",
       },
     ],
   },
@@ -111,7 +111,7 @@ export const experiences = [
       },
       {
         en: "Supported technical production for approximately 4 routine programs per month, handling camera feeds, audio mixing, lighting, and recording setup.",
-        id: "Mendukung operasional produksi teknis untuk sekitar 4 program rutin per bulan, menangani integrasi *camera feed*, *audio mixing*, tata pencahayaan, dan pengaturan perekaman.",
+        id: "Mendukung produksi teknis untuk sekitar 4 program rutin per bulan, meliputi penanganan input kamera, audio mixing, tata pencahayaan, dan persiapan rekaman.",
       },
       {
         en: "Collaborated with program and content teams to coordinate production requirements and ensure smooth execution of live and recorded activities.",
