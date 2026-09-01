@@ -5,39 +5,47 @@ import "@fontsource/caveat/400.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
-  ),
+  metadataBase: new URL("https://naufalzaki.vercel.app"),
   title: {
-    default: "Muhammad Naufal Zaki | Information Systems & Leadership",
+    default: "Muhammad Naufal Zaki — Information Systems Portfolio",
     template: "%s | Muhammad Naufal Zaki",
   },
   description:
-    "Bilingual portfolio of Muhammad Naufal Zaki, an Information Systems undergraduate interested in technology, leadership, and practical impact.",
+    "Information Systems undergraduate at Universitas Airlangga exploring the intersection of technology, business, enterprise systems, technology risk, and data-driven problem solving.",
   keywords: [
     "Muhammad Naufal Zaki",
     "Information Systems",
     "Universitas Airlangga",
-    "Technology",
-    "Leadership",
+    "Enterprise Systems",
+    "Technology Risk",
     "Portfolio",
   ],
   authors: [{ name: "Muhammad Naufal Zaki" }],
+  alternates: {
+    canonical: "https://naufalzaki.vercel.app",
+  },
   openGraph: {
     type: "website",
-    url: "/",
+    url: "https://naufalzaki.vercel.app",
     siteName: "Muhammad Naufal Zaki Portfolio",
-    title: "Muhammad Naufal Zaki | Information Systems & Leadership",
+    title: "Muhammad Naufal Zaki — Information Systems Portfolio",
     description:
-      "Technology, leadership, and practical projects—built while learning and growing.",
-    images: [{ url: "/og.png", width: 1200, height: 630 }],
+      "Information Systems undergraduate at Universitas Airlangga exploring the intersection of technology, business, enterprise systems, technology risk, and data-driven problem solving.",
+    images: [
+      {
+        url: "https://naufalzaki.vercel.app/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Muhammad Naufal Zaki — Information Systems Portfolio",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Muhammad Naufal Zaki | Information Systems & Leadership",
+    title: "Muhammad Naufal Zaki — Information Systems Portfolio",
     description:
-      "Technology, leadership, and practical projects—built while learning and growing.",
-    images: ["/og.png"],
+      "Information Systems undergraduate at Universitas Airlangga exploring the intersection of technology, business, enterprise systems, technology risk, and data-driven problem solving.",
+    images: ["https://naufalzaki.vercel.app/og-image.png"],
   },
   icons: {
     icon: "/favicon.svg",

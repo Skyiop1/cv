@@ -98,6 +98,10 @@ const copy = {
     projectTitle: "Projects built while learning in public.",
     projectIntro:
       "A growing collection of Information Systems coursework and practical experiments across data, machine learning, mobile, and web development.",
+    featuredSectionEyebrow: "Featured Projects",
+    learningLabEyebrow: "Learning Lab",
+    learningLabIntro:
+      "Coursework, technical experiments, and smaller builds documenting the fundamentals behind my larger projects.",
     source: "GitHub",
     profileLink: "LinkedIn",
     contactEyebrow: "Inquiries & collaboration",
@@ -127,6 +131,10 @@ const copy = {
     projectTitle: "Proyek yang dikembangkan melalui eksplorasi dan proses belajar terbuka.",
     projectIntro:
       "Koleksi tugas akademik Sistem Informasi dan proyek eksplorasi praktis di bidang analisis data, machine learning, pengembangan aplikasi mobile, dan web.",
+    featuredSectionEyebrow: "Proyek Pilihan",
+    learningLabEyebrow: "Learning Lab",
+    learningLabIntro:
+      "Tugas kuliah, eksperimen teknis, dan proyek fundamental yang mendasari pengembangan sistem yang lebih besar.",
     source: "GitHub",
     profileLink: "LinkedIn",
     contactEyebrow: "Kolaborasi & Hubungan Profesional",
@@ -495,6 +503,9 @@ function HomeContent({ language }: { language: Language }) {
 
 function ProjectsContent({ language }: { language: Language }) {
   const t = copy[language];
+  const featuredProjects = projects.filter((project) => project.featured);
+  const learningLabProjects = projects.filter((project) => !project.featured);
+
   return (
     <main id="main-content">
       <section className="projects-intro">
@@ -503,9 +514,15 @@ function ProjectsContent({ language }: { language: Language }) {
         <h2>{t.projectTitle}</h2>
         <p>{t.projectIntro}</p>
       </section>
+
       <div className="stripe-divider" />
-      <section className="project-catalog" aria-label={t.projects}>
-        {projects.map((project, index) => (
+
+      {/* FEATURED PROJECTS SECTION */}
+      <section className="project-catalog" aria-label={t.featuredSectionEyebrow}>
+        <div className="project-section-header">
+          <p className="eyebrow">{"// "}{t.featuredSectionEyebrow}</p>
+        </div>
+        {featuredProjects.map((project, index) => (
           <article className="project-card" id={project.slug} key={project.slug}>
             <div className="project-number">{String(index + 1).padStart(2, "0")}</div>
             <div className="project-card-main">
@@ -530,6 +547,39 @@ function ProjectsContent({ language }: { language: Language }) {
               <Button asChild size="sm" variant="ghost">
                 <a href={profile.linkedin} target="_blank" rel="noreferrer">
                   <LinkedinIcon aria-hidden="true" /> {t.profileLink}
+                </a>
+              </Button>
+            </div>
+          </article>
+        ))}
+      </section>
+
+      {/* LEARNING LAB SECTION */}
+      <section className="project-catalog learning-lab-section" aria-label={t.learningLabEyebrow}>
+        <div className="project-section-header learning-lab-header">
+          <p className="eyebrow">{"// "}{t.learningLabEyebrow}</p>
+          <p className="learning-lab-intro">{t.learningLabIntro}</p>
+        </div>
+        {learningLabProjects.map((project, index) => (
+          <article className="project-card learning-lab-card" id={project.slug} key={project.slug}>
+            <div className="project-number">{String(index + 1).padStart(2, "0")}</div>
+            <div className="project-card-main">
+              <div className="project-card-header">
+                <div>
+                  <p className="project-category">{project.category} · {project.year}</p>
+                  <h3 className="learning-lab-title">{project.title}</h3>
+                </div>
+                <Code2 aria-hidden="true" />
+              </div>
+              <p className="project-description learning-lab-desc">{localize(project.description, language)}</p>
+              <div className="tag-row">
+                {project.tags.map((tag) => <span className="tag" key={tag}>{tag}</span>)}
+              </div>
+            </div>
+            <div className="project-links">
+              <Button asChild size="sm" variant="outline">
+                <a href={project.github} target="_blank" rel="noreferrer">
+                  <GithubIcon aria-hidden="true" /> {t.source} <ArrowUpRight aria-hidden="true" />
                 </a>
               </Button>
             </div>

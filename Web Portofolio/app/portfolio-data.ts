@@ -235,7 +235,7 @@ export const projects = [
   },
   {
     slug: "stock-price-prediction-ga-rf",
-    title: "Genetic Algorithm-Based Feature Selection for Random Forest Stock Trend Classification: Case Study on Indonesian Stock (BBCA.JK)",
+    title: "Stock Trend Classification with Genetic Algorithm & Random Forest",
     description: {
       en: "An empirical machine-learning study leveraging Genetic Algorithms for optimal feature selection in Random Forest models to classify daily price movement trends on Bank Central Asia (BBCA.JK) equities.",
       id: "Studi komparasi machine learning yang memanfaatkan Genetic Algorithm untuk seleksi fitur optimal pada model Random Forest dalam mengklasifikasikan tren pergerakan saham Bank Central Asia (BBCA.JK).",
@@ -248,10 +248,10 @@ export const projects = [
   },
   {
     slug: "customer-segmentation",
-    title: "Clustering & Customer Segmentation",
+    title: "Customer Segmentation with K-Means & K-Modes",
     description: {
-      en: "An unsupervised-learning exercise focused on identifying meaningful customer groups from data.",
-      id: "Implementasi unsupervised learning untuk segmentasi pelanggan dan identifikasi pola perilaku data.",
+      en: "Customer segmentation analysis using K-Means and K-Modes to identify distinct behavioral and spending profiles across numerical and categorical customer data.",
+      id: "Analisis segmentasi pelanggan menggunakan K-Means dan K-Modes untuk mengidentifikasi profil perilaku serta pola pengeluaran pelanggan pada data numerik dan kategorikal.",
     },
     category: "Data & ML",
     year: "2026",
@@ -270,7 +270,7 @@ export const projects = [
     year: "2026",
     tags: ["Python", "Regression", "Model Evaluation"],
     github: `${repositoryBase}/Car%20Price%20Prediction`,
-    featured: true,
+    featured: false,
   },
   {
     slug: "wine-quality-classification",

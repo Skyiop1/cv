@@ -1147,6 +1147,48 @@ html[data-theme="light"] .banner-code {
   height: 14px;
 }
 
+.project-section-header {
+  padding: 24px 8px 12px;
+}
+
+.project-section-header .eyebrow {
+  margin: 0;
+  color: var(--signal);
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.learning-lab-header {
+  padding-top: 38px;
+  border-top: 1px dashed var(--border);
+}
+
+.learning-lab-intro {
+  max-width: 620px;
+  margin: 8px 0 6px;
+  color: var(--muted-foreground);
+  font-size: 0.82rem;
+  line-height: 1.6;
+}
+
+.learning-lab-card {
+  padding: 20px 8px;
+}
+
+.learning-lab-card h3 {
+  font-size: 0.96rem;
+}
+
+.learning-lab-desc {
+  max-width: 560px;
+  margin: 9px 0 13px;
+  color: var(--muted-foreground);
+  font-size: 0.78rem;
+  line-height: 1.6;
+}
+
 .contact-banner {
   position: relative;
   overflow: hidden;
