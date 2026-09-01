@@ -4,8 +4,10 @@ import { GeistMono } from "geist/font/mono";
 import "@fontsource/caveat/400.css";
 import "./globals.css";
 
+const SITE_URL = "https://naufalzaki.vercel.app";
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://naufalzaki.vercel.app"),
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "Muhammad Naufal Zaki — Information Systems Portfolio",
     template: "%s | Muhammad Naufal Zaki",
@@ -16,26 +18,13 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Muhammad Naufal Zaki",
-      url: "https://naufalzaki.vercel.app",
+      url: SITE_URL,
     },
   ],
   creator: "Muhammad Naufal Zaki",
   publisher: "Muhammad Naufal Zaki",
-  keywords: [
-    "Muhammad Naufal Zaki",
-    "Muhammad Naufal Zaki Universitas Airlangga",
-    "Naufal Zaki Information Systems",
-    "Muhammad Naufal Zaki Portfolio",
-    "Information Systems",
-    "Universitas Airlangga",
-    "Enterprise Systems",
-    "Technology Risk",
-    "Financial Technology",
-    "Data Analytics",
-    "Machine Learning",
-  ],
   alternates: {
-    canonical: "https://naufalzaki.vercel.app",
+    canonical: `${SITE_URL}/`,
   },
   robots: {
     index: true,
@@ -51,14 +40,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://naufalzaki.vercel.app",
+    url: `${SITE_URL}/`,
     siteName: "Muhammad Naufal Zaki",
     title: "Muhammad Naufal Zaki — Information Systems Portfolio",
     description:
       "Selected work, experience, and projects across Information Systems, technology, business, data, and emerging enterprise technologies.",
     images: [
       {
-        url: "https://naufalzaki.vercel.app/og-image.png",
+        url: `${SITE_URL}/og-image.png`,
         width: 1200,
         height: 630,
         alt: "Muhammad Naufal Zaki — Information Systems Portfolio",
@@ -71,12 +60,10 @@ export const metadata: Metadata = {
     title: "Muhammad Naufal Zaki — Information Systems Portfolio",
     description:
       "Selected work, experience, and projects across Information Systems, technology, business, data, and emerging enterprise technologies.",
-    images: ["https://naufalzaki.vercel.app/og-image.png"],
-    creator: "@naufallzakki",
+    images: [`${SITE_URL}/og-image.png`],
   },
-  verification: {
-    google: "google943c1585c75dbe8c",
-  },
+  // Google Search Console: add verification.google here once you have the
+  // exact HTML meta-tag token from GSC for https://naufalzaki.vercel.app/
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
@@ -87,8 +74,8 @@ const personJsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Muhammad Naufal Zaki",
-  url: "https://naufalzaki.vercel.app",
-  image: "https://naufalzaki.vercel.app/profile.jpg",
+  url: SITE_URL,
+  image: `${SITE_URL}/profile.jpg`,
   jobTitle: "Information Systems Student",
   description:
     "Information Systems undergraduate at Universitas Airlangga exploring the intersection of technology, business, enterprise systems, technology risk, financial technology, and data-driven problem solving.",
@@ -117,7 +104,7 @@ const websiteJsonLd = {
   "@context": "https://schema.org",
   "@type": "WebSite",
   name: "Muhammad Naufal Zaki",
-  url: "https://naufalzaki.vercel.app",
+  url: SITE_URL,
   description:
     "Personal portfolio of Muhammad Naufal Zaki, an Information Systems undergraduate at Universitas Airlangga.",
   author: {

@@ -1,24 +1,26 @@
 import type { Metadata } from "next";
 import { PortfolioPage } from "@/components/portfolio-page";
 
+const SITE_URL = "https://naufalzaki.vercel.app";
+
 export const metadata: Metadata = {
   title: "Projects",
   description:
     "Selected Information Systems projects by Muhammad Naufal Zaki across machine learning, data analytics, financial technology, blockchain, and practical technology experiments.",
   alternates: {
-    canonical: "https://naufalzaki.vercel.app/projects",
+    canonical: `${SITE_URL}/projects/`,
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://naufalzaki.vercel.app/projects",
+    url: `${SITE_URL}/projects/`,
     siteName: "Muhammad Naufal Zaki",
     title: "Projects | Muhammad Naufal Zaki",
     description:
       "Selected Information Systems projects by Muhammad Naufal Zaki across machine learning, data analytics, financial technology, blockchain, and practical technology experiments.",
     images: [
       {
-        url: "https://naufalzaki.vercel.app/og-image.png",
+        url: `${SITE_URL}/og-image.png`,
         width: 1200,
         height: 630,
         alt: "Muhammad Naufal Zaki — Projects",
@@ -31,8 +33,7 @@ export const metadata: Metadata = {
     title: "Projects | Muhammad Naufal Zaki",
     description:
       "Selected Information Systems projects by Muhammad Naufal Zaki across machine learning, data analytics, financial technology, blockchain, and practical technology experiments.",
-    images: ["https://naufalzaki.vercel.app/og-image.png"],
-    creator: "@naufallzakki",
+    images: [`${SITE_URL}/og-image.png`],
   },
 };
 
