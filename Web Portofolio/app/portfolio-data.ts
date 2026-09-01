@@ -92,24 +92,20 @@ export const experiences = [
     tags: ["Media", "Technical Operations", "Problem Solving"],
     bullets: [
       {
-        en: "Served as the primary technical lead for video content, translating creative concepts into polished final outputs that aligned with AMCOR’s digital strategy.",
-        id: "Bertindak sebagai penanggung jawab teknis utama produksi konten video, menerjemahkan konsep kreatif menjadi karya visual berkualitas tinggi yang selaras dengan strategi digital AMCOR.",
+        en: "Produced and edited approximately 3 video projects per month, translating creative concepts into polished outputs aligned with program objectives.",
+        id: "Memproduksi dan menyunting sekitar 3 proyek video per bulan, menerjemahkan konsep kreatif menjadi karya visual berkualitas yang selaras dengan tujuan program.",
       },
       {
-        en: "Executed detailed manual editing for approximately 3 high-quality videos per month, prioritizing visual precision and narrative depth.",
-        id: "Melakukan penyuntingan video secara presisi untuk ~3 konten video utama per bulan dengan mengutamakan kualitas visual dan kekuatan narasi.",
+        en: "Supported technical production for approximately 4 routine programs per month, handling camera feeds, audio mixing, lighting, and recording setup.",
+        id: "Mendukung operasional produksi teknis untuk sekitar 4 program rutin per bulan, menangani integrasi *camera feed*, *audio mixing*, tata pencahayaan, dan pengaturan perekaman.",
       },
       {
-        en: "Managed technical visual operations for approximately 4 routine programs per month, ensuring high-quality broadcast/recording standards.",
-        id: "Mengelola operasional teknis visual untuk ~4 program rutin per bulan guna menjamin standar penyiaran dan perekaman yang optimal.",
+        en: "Collaborated with program and content teams to coordinate production requirements and ensure smooth execution of live and recorded activities.",
+        id: "Berkolaborasi dengan tim program dan konten untuk mengoordinasikan kebutuhan produksi guna memastikan kelancaran kegiatan, baik siaran langsung maupun rekaman.",
       },
       {
-        en: "Managed the technical setup for programs, overseeing audio mixing, camera feeds, and studio lighting configurations to maintain professional broadcast standards.",
-        id: "Menangani tata teknis studio siaran, meliputi *audio mixing*, integrasi *camera feed*, dan konfigurasi pencahayaan studio sesuai standar penyiaran profesional.",
-      },
-      {
-        en: "Performed real-time troubleshooting during live events to resolve technical glitches instantly, maintaining a seamless viewing experience.",
-        id: "Melakukan penanganan kendala teknis secara langsung (*real-time troubleshooting*) selama siaran berlangsung guna menjaga kelancaran acara dan kenyamanan penonton.",
+        en: "Troubleshot technical issues in real time during live events, helping maintain uninterrupted program execution.",
+        id: "Menangani kendala teknis secara langsung (*real-time troubleshooting*) selama acara siaran langsung untuk menjaga kelancaran program tanpa gangguan.",
       },
     ],
   },
