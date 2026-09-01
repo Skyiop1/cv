@@ -540,9 +540,21 @@ function ProjectsContent({ language }: { language: Language }) {
   );
 }
 
-function ContactFooter({ language }: { language: Language }) {
+function ContactFooter({
+  language,
+  view,
+}: {
+  language: Language;
+  view?: View;
+}) {
   const t = copy[language];
   const [time, setTime] = useState("");
+
+  const handleScrollTop = (targetView: View) => {
+    if (view === targetView) {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  };
 
   useEffect(() => {
     const updateTime = () => {
@@ -595,8 +607,16 @@ function ContactFooter({ language }: { language: Language }) {
         <div>
           <h3>{t.index}</h3>
           <ul>
-            <li><Link href="/">{t.home}</Link></li>
-            <li><Link href="/projects">{t.projects}</Link></li>
+            <li>
+              <Link href="/" onClick={() => handleScrollTop("home")}>
+                {t.home}
+              </Link>
+            </li>
+            <li>
+              <Link href="/projects" onClick={() => handleScrollTop("projects")}>
+                {t.projects}
+              </Link>
+            </li>
             <li><a href={profile.cv} download>{t.downloadCv}</a></li>
           </ul>
         </div>
@@ -663,7 +683,7 @@ export function PortfolioPage({ view }: { view: View }) {
         />
         {view === "home" ? <HomeContent language={language} /> : <ProjectsContent language={language} />}
         <div className="stripe-divider" />
-        <ContactFooter language={language} />
+        <ContactFooter language={language} view={view} />
       </div>
     </div>
   );

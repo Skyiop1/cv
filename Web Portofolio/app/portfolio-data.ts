@@ -47,8 +47,8 @@ export const experiences = [
         id: "Mengoordinasikan dan mendampingi penerima BSI Scholarship Inspirasi secara berkelanjutan dalam proses pencairan dana, distribusi jas almamater/blazer, pelatihan, mentoring, sesi pengembangan diri, hingga pemenuhan tanggung jawab program dengan komunikasi yang jelas dan responsif.",
       },
       {
-        en: "Initiated and led the production of the BSI Scholarship UNAIR Company Profile by coordinating availability voting from approximately 72 awardees and managing 30 participants throughout the photoshoot process.",
-        id: "Menginisiasi dan memimpin produksi Company Profile BSI Scholarship UNAIR dengan mengoordinasikan jadwal ketersediaan ~72 penerima beasiswa serta memandu 30 partisipan selama rangkaian sesi pemotretan (*photoshoot*).",
+        en: "Initiated the BSI Scholarship UNAIR Company Profile initiative for an 80+ awardee community across three scholarship tracks, coordinating availability polling with 72 respondents and coordinating 50+ participants throughout the photoshoot execution.",
+        id: "Menginisiasi pembuatan Company Profile BSI Scholarship UNAIR untuk komunitas beranggotakan 80+ penerima beasiswa lintas tiga jalur beasiswa, mengoordinasikan survei ketersediaan jadwal kepada 72 responden, serta memandu 50+ partisipan selama eksekusi sesi pemotretan (*photoshoot*).",
       },
       {
         en: "Collaborated with scholarship coordinators, the design team, vendors, and participants to align communication, schedules, budgets, and execution quality, while building familiarity and improving the quality of relationships.",
@@ -76,7 +76,7 @@ export const experiences = [
       },
       {
         en: "Balanced the needs and interests of Loka Coffee and external partners to develop mutually beneficial collaboration arrangements.",
-        id: "Menjembatani kepentingan Loka Coffee dan mitra eksternal guna merumuskan bentuk kerja sama yang saling menguntungkan (*mutual collaboration*).",
+        id: "Menyelaraskan kebutuhan dan kepentingan Loka Coffee serta mitra eksternal untuk membangun skema kerja sama yang saling menguntungkan.",
       },
       {
         en: "Monitored monthly Instagram performance and refined content strategies, contributing to an increase in monthly views from 9.5K to 40K and a peak account reach of 8,787.",
@@ -174,24 +174,16 @@ export const experiences = [
     tags: ["Public Relations", "Social Media", "Communication"],
     bullets: [
       {
-        en: "Developed and executed communication strategies that successfully promoted three major organizational events, increasing student participation by up to 93%.",
-        id: "Merancang dan mengeksekusi strategi komunikasi publik untuk 3 agenda besar organisasi, mendorong peningkatan partisipasi siswa hingga 93%.",
+        en: "Coordinated communication and information dissemination for organizational programs while collaborating with OSIS, MPK, and school representatives.",
+        id: "Mengoordinasikan alur komunikasi dan diseminasi informasi program organisasi sekaligus berkolaborasi aktif dengan perwakilan OSIS, MPK, dan pihak sekolah.",
       },
       {
-        en: "Managed the social media platforms of Rohis, boosting follower engagement by 40% through consistent content updates and interactive posts.",
-        id: "Mengelola media sosial organisasi dan meningkatkan interaksi pengikut (*engagement*) sebesar 40% melalui konten edukatif dan interaktif yang konsisten.",
+        en: "Supported the coordination of Pesantren Kilat and Tadarus activities, organizing participant schedules, activity flow, and Quran recitation sessions.",
+        id: "Mendukung koordinasi kegiatan Pesantren Kilat dan Tadarus, mengatur jadwal peserta, alur kegiatan, hingga pelaksanaan sesi tilawah Al-Qur'an.",
       },
       {
-        en: "Facilitated collaboration between Rohis and the school to ensure smooth activity implementation, resulting in improved partnerships and event success.",
-        id: "Menjembatani koordinasi antara organisasi dan pihak sekolah guna memastikan kelancaran perizinan serta keberhasilan pelaksanaan kegiatan.",
-      },
-      {
-        en: "Created promotional materials (brochures, posters, social media content) that significantly enhanced awareness and participation in Rohis activities.",
-        id: "Memproduksi materi publikasi kreatif (brosur, poster, konten digital) yang efektif meningkatkan atensi dan partisipasi peserta.",
-      },
-      {
-        en: "Coordinated public relations efforts, increasing the organization's visibility within the school community and boosting event attendance by 25%.",
-        id: "Mengoordinasikan publikasi organisasi, memperluas jangkauan informasi di lingkungan sekolah, dan meningkatkan angka kehadiran acara hingga 25%.",
+        en: "Collaborated with fellow committee members on event logistics and on-site coordination, helping programs run according to schedule and resolving operational issues as they arose.",
+        id: "Berkolaborasi dengan sesama panitia dalam penanganan logistik dan koordinasi lapangan, memastikan seluruh program terlaksana sesuai jadwal serta menyelesaikan kendala operasional secara langsung.",
       },
     ],
   },
