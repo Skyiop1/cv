@@ -265,10 +265,10 @@ html[data-theme="light"] .ambient-binary {
 
 html[data-theme="light"] .profile-banner {
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.6)),
-    radial-gradient(circle at 24% 40%, rgba(65, 113, 108, 0.35), transparent 23%),
-    radial-gradient(circle at 75% 68%, rgba(83, 105, 119, 0.25), transparent 26%),
-    #d8ddda;
+    linear-gradient(180deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.8)),
+    radial-gradient(circle at 24% 40%, rgba(65, 113, 108, 0.22), transparent 30%),
+    radial-gradient(circle at 75% 68%, rgba(83, 105, 119, 0.18), transparent 35%),
+    #dde2df;
 }
 
 .profile-banner::before,
@@ -295,6 +295,12 @@ html[data-theme="light"] .profile-banner {
     repeating-linear-gradient(0deg, transparent 0 3px, rgba(185, 226, 236, 0.04) 4px);
 }
 
+html[data-theme="light"] .profile-banner::after {
+  background:
+    linear-gradient(90deg, transparent 0 19%, rgba(65, 113, 108, 0.1) 19.1%, transparent 19.25% 68%, rgba(65, 113, 108, 0.08) 68.1%, transparent 68.25%),
+    repeating-linear-gradient(0deg, transparent 0 3px, rgba(65, 113, 108, 0.03) 4px);
+}
+
 .binary-video {
   position: absolute;
   inset: 0;
@@ -303,6 +309,13 @@ html[data-theme="light"] .profile-banner {
   background:
     linear-gradient(90deg, rgba(4, 9, 12, 0.9), transparent 30%, transparent 70%, rgba(4, 9, 12, 0.78)),
     radial-gradient(circle at 52% 40%, rgba(139, 213, 229, 0.18), transparent 24%);
+}
+
+html[data-theme="light"] .binary-video {
+  opacity: 0.75;
+  background:
+    linear-gradient(90deg, rgba(232, 236, 234, 0.88), transparent 30%, transparent 70%, rgba(232, 236, 234, 0.82)),
+    radial-gradient(circle at 52% 40%, rgba(65, 113, 108, 0.12), transparent 35%);
 }
 
 .binary-streams {
@@ -319,6 +332,11 @@ html[data-theme="light"] .profile-banner {
   text-shadow: 0 0 12px rgba(115, 204, 227, 0.55);
 }
 
+html[data-theme="light"] .binary-streams {
+  color: rgba(35, 65, 62, 0.42);
+  text-shadow: none;
+}
+
 .binary-streams span {
   width: 1ch;
   overflow-wrap: anywhere;
@@ -330,9 +348,17 @@ html[data-theme="light"] .profile-banner {
   animation-duration: 1.8s;
 }
 
+html[data-theme="light"] .binary-streams span:nth-child(3n) {
+  color: rgba(20, 48, 45, 0.75);
+}
+
 .binary-streams span:nth-child(4n) {
   opacity: 0.4;
   animation-duration: 3.4s;
+}
+
+html[data-theme="light"] .binary-streams span:nth-child(4n) {
+  opacity: 0.22;
 }
 
 .binary-scanline {
@@ -346,6 +372,10 @@ html[data-theme="light"] .profile-banner {
   animation: scanline 5.5s linear infinite;
 }
 
+html[data-theme="light"] .binary-scanline {
+  background: linear-gradient(180deg, transparent, rgba(65, 113, 108, 0.1), transparent);
+}
+
 .binary-noise {
   position: absolute;
   inset: 0;
@@ -354,6 +384,12 @@ html[data-theme="light"] .profile-banner {
   background-size: 4px 4px;
   mix-blend-mode: screen;
   animation: noise-shift 0.55s steps(2, end) infinite;
+}
+
+html[data-theme="light"] .binary-noise {
+  opacity: 0.08;
+  mix-blend-mode: multiply;
+  background-image: radial-gradient(rgba(30, 60, 55, 0.35) 0.7px, transparent 0.9px);
 }
 
 .banner-signal {
@@ -815,10 +851,21 @@ html[data-theme="light"] .banner-code {
 
 .experience-details ul {
   margin: 0 0 16px;
-  padding-left: 17px;
-  color: color-mix(in srgb, var(--foreground) 74%, var(--muted-foreground));
-  font-size: 0.83rem;
+  padding-left: 20px;
+  color: color-mix(in srgb, var(--foreground) 78%, var(--muted-foreground));
+  font-size: 0.85rem;
   line-height: 1.7;
+  list-style-type: disc !important;
+  list-style-position: outside;
+}
+
+.experience-details li {
+  padding-left: 4px;
+}
+
+.experience-details li::marker {
+  color: var(--signal);
+  font-size: 0.9em;
 }
 
 .experience-details li + li {

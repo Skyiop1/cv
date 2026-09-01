@@ -119,26 +119,26 @@ const copy = {
     theme: "Tema",
     experience: "Pengalaman",
     education: "Pendidikan",
-    featuredProjects: "Proyek pilihan",
-    viewAll: "Lihat semua",
-    stack: "Stack & kapabilitas",
-    impact: "Dampak pilihan",
-    projectEyebrow: "Karya akademik & personal",
-    projectTitle: "Proyek yang dibangun sambil terus belajar.",
+    featuredProjects: "Proyek Pilihan",
+    viewAll: "Lihat Semua",
+    stack: "Keahlian & Kapabilitas",
+    impact: "Dampak Terpilih",
+    projectEyebrow: "Karya Akademik & Eksperimen",
+    projectTitle: "Proyek yang dikembangkan melalui eksplorasi dan proses belajar terbuka.",
     projectIntro:
-      "Koleksi yang terus berkembang dari tugas Sistem Informasi dan eksperimen praktis di bidang data, machine learning, mobile, dan pengembangan web.",
+      "Koleksi tugas akademik Sistem Informasi dan proyek eksplorasi praktis di bidang analisis data, machine learning, pengembangan aplikasi mobile, dan web.",
     source: "GitHub",
     profileLink: "LinkedIn",
-    contactEyebrow: "Kolaborasi & komunikasi",
-    contactTitle: "Mari belajar, membangun, dan menciptakan dampak bermakna.",
+    contactEyebrow: "Kolaborasi & Hubungan Profesional",
+    contactTitle: "Mari berkolaborasi, bertukar gagasan, dan menciptakan dampak nyata.",
     contactBody:
-      "Terbuka untuk diskusi seputar teknologi, kepemimpinan, proyek kolaboratif, dan peluang karier awal.",
-    getInTouch: "Hubungi saya",
+      "Terbuka untuk diskusi seputar teknologi, kepemimpinan, proyek kolaboratif, maupun peluang karier awal.",
+    getInTouch: "Hubungi Saya",
     downloadCv: "Unduh CV",
     contact: "Kontak",
-    index: "Indeks",
+    index: "Navigasi",
     timezone: "Asia/Jakarta · Indonesia",
-    skip: "Lewati ke konten",
+    skip: "Lewati ke konten utama",
   },
 };
 
@@ -426,9 +426,9 @@ function HomeContent({ language }: { language: Language }) {
           <span className="education-icon"><GraduationCap aria-hidden="true" /></span>
           <div>
             <h3>Universitas Airlangga</h3>
-            <p>{language === "en" ? "Undergraduate · Information Systems" : "Sarjana · Sistem Informasi"}</p>
+            <p>{language === "en" ? "Undergraduate · Information Systems" : "Sarjana (S1) · Sistem Informasi"}</p>
           </div>
-          <span>Jul 2024 — Jul 2028 <small>({language === "en" ? "Expected" : "Perkiraan"})</small></span>
+          <span>Jul 2024 — Jul 2028 <small>({language === "en" ? "Expected" : "Estimasi Lulus"})</small></span>
         </article>
       </section>
 
