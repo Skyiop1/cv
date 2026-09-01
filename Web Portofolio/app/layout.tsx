@@ -62,8 +62,9 @@ export const metadata: Metadata = {
       "Selected work, experience, and projects across Information Systems, technology, business, data, and emerging enterprise technologies.",
     images: [`${SITE_URL}/og-image.png`],
   },
-  // Google Search Console: add verification.google here once you have the
-  // exact HTML meta-tag token from GSC for https://naufalzaki.vercel.app/
+  verification: {
+    google: "rDgk7nLORIZEaWq5yPSgcXnHIhAvIsODRjtgpX3vQf8",
+  },
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
