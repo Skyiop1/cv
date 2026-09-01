@@ -32,7 +32,12 @@ export const experiences = [
     },
     period: "Nov 2025 — Present",
     location: "Surabaya",
-    tags: ["Leadership", "Stakeholder Coordination", "Operations"],
+    tags: [
+      "Leadership",
+      "Stakeholder Coordination",
+      "Community Engagement",
+      "Program Operations",
+    ],
     bullets: [
       {
         en: "Initiated and led the BSI Scholarship UNAIR Iftar Gathering, bringing together 32 awardees across scholarship categories and creating an inclusive space to strengthen trust, connection, and a shared sense of belonging.",
@@ -64,7 +69,12 @@ export const experiences = [
     },
     period: "Jun 2025 — Mar 2026",
     location: "Surabaya",
-    tags: ["Partnerships", "Marketing", "Community"],
+    tags: [
+      "Partnerships",
+      "Brand Marketing",
+      "Social Media Strategy",
+      "Community Management",
+    ],
     bullets: [
       {
         en: "Initiated and managed partnership discussions with 5 external organizations, aligning collaboration objectives, deliverables, timelines, and operational requirements.",
@@ -89,7 +99,11 @@ export const experiences = [
     role: { en: "Media Production", id: "Produksi Media" },
     period: "Dec 2024 — Dec 2025",
     location: "Surabaya",
-    tags: ["Media", "Technical Operations", "Problem Solving"],
+    tags: [
+      "Video Production",
+      "Audiovisual Production",
+      "Creative Content",
+    ],
     bullets: [
       {
         en: "Produced and edited approximately 3 video projects per month, translating creative concepts into polished outputs aligned with program objectives.",
@@ -114,7 +128,7 @@ export const experiences = [
     role: { en: "Treasurer", id: "Bendahara" },
     period: "Nov 2023 — May 2024",
     location: "Sukoharjo",
-    tags: ["Budgeting", "Accountability", "Event Operations"],
+    tags: ["Budgeting", "Cost Optimization", "Financial Reporting"],
     bullets: [
       {
         en: "Managed a budget of IDR 60 million for batch activities over 7 months, ensuring 100% accuracy in financial records and transaction tracking.",
@@ -167,7 +181,11 @@ export const experiences = [
     role: { en: "Public Relations", id: "Hubungan Masyarakat" },
     period: "Apr 2023 — Nov 2023",
     location: "Sukoharjo",
-    tags: ["Public Relations", "Social Media", "Communication"],
+    tags: [
+      "Public Relations",
+      "Stakeholder Communication",
+      "Event Coordination",
+    ],
     bullets: [
       {
         en: "Coordinated communication and information dissemination for organizational programs while collaborating with OSIS, MPK, and school representatives.",
