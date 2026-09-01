@@ -53,7 +53,7 @@ export const experiences = [
       },
       {
         en: "Initiated the BSI Scholarship UNAIR Company Profile initiative for an 80+ awardee community across three scholarship tracks, coordinating availability polling with 72 respondents and coordinating 50+ participants throughout the photoshoot execution.",
-        id: "Menginisiasi pembuatan Company Profile BSI Scholarship UNAIR untuk komunitas beranggotakan 80+ penerima beasiswa lintas tiga jalur beasiswa, mengoordinasikan survei ketersediaan jadwal kepada 72 responden, serta memandu 50+ partisipan selama eksekusi sesi pemotretan (*photoshoot*).",
+        id: "Menginisiasi pembuatan Company Profile BSI Scholarship UNAIR bagi 80+ penerima beasiswa dari tiga jalur seleksi, mengoordinasikan survei ketersediaan waktu bersama 72 responden, serta memandu 50+ peserta selama pelaksanaan sesi pemotretan.",
       },
       {
         en: "Collaborated with scholarship coordinators, the design team, vendors, and participants to align communication, schedules, budgets, and execution quality, while building familiarity and improving the quality of relationships.",
@@ -380,8 +380,8 @@ export const impactStats = [
   {
     value: "50+",
     label: {
-      en: "awardees involved in a cross-track initiative",
-      id: "penerima beasiswa terlibat dalam inisiatif lintas kategori",
+      en: "awardees coordinated in a cross-scholarship initiative across three categories",
+      id: "penerima beasiswa dikoordinasikan dalam inisiatif lintas kategori",
     },
   },
   {
@@ -394,8 +394,8 @@ export const impactStats = [
   {
     value: "5",
     label: {
-      en: "external partnership discussions initiated",
-      id: "diskusi kemitraan strategis dengan organisasi eksternal diinisiasi",
+      en: "external partnerships established through strategic collaboration",
+      id: "kemitraan eksternal berhasil dibangun melalui kolaborasi strategis",
     },
   },
   {
