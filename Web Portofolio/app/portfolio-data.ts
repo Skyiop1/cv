@@ -41,7 +41,7 @@ export const experiences = [
     bullets: [
       {
         en: "Initiated and led the BSI Scholarship UNAIR Iftar Gathering, bringing together 32 awardees across scholarship categories and creating an inclusive space to strengthen trust, connection, and a shared sense of belonging.",
-        id: "Menginisiasi dan memimpin agenda BSI Scholarship UNAIR Iftar Gathering yang mempertemukan 32 penerima beasiswa lintas kategori guna mempererat relasi, rasa kebersamaan, dan sinergi antaranggota.",
+        id: "Menginisiasi dan memimpin BSI Scholarship UNAIR Iftar Gathering yang mempertemukan 32 penerima beasiswa lintas kategori, serta menciptakan ruang inklusif untuk memperkuat rasa percaya, koneksi, dan rasa saling memiliki.",
       },
       {
         en: "Structured team responsibilities, delegated tasks, and directed the overall execution of the event, including venue selection, reservations, operational planning, and coordination of event requirements.",
@@ -90,7 +90,7 @@ export const experiences = [
       },
       {
         en: "Monitored monthly Instagram performance and refined content strategies, contributing to an increase in monthly views from 9.5K to 40K and a peak account reach of 8,787.",
-        id: "Menganalisis performa bulanan Instagram dan mengoptimalkan strategi konten, berhasil meningkatkan tayangan bulanan dari 9,5 ribu menjadi 40 ribu serta mencapai jangkauan puncak (*peak reach*) sebanyak 8.787 akun.",
+        id: "Mengevaluasi performa bulanan Instagram dan menyempurnakan strategi konten, berhasil meningkatkan tayangan bulanan dari 9,5K ke 40K dengan jangkauan tertinggi mencapai 8.787 akun.",
       },
     ],
   },
@@ -119,7 +119,7 @@ export const experiences = [
       },
       {
         en: "Troubleshot technical issues in real time during live events, helping maintain uninterrupted program execution.",
-        id: "Menangani kendala teknis secara langsung (*real-time troubleshooting*) selama acara siaran langsung untuk menjaga kelancaran program tanpa gangguan.",
+        id: "Mengatasi kendala teknis secara real-time saat acara siaran langsung untuk menjaga kelancaran program tanpa gangguan.",
       },
     ],
   },
@@ -144,7 +144,7 @@ export const experiences = [
       },
       {
         en: "Coordinated with the management team to organize successful event prom attended by 345 participants, receiving positive feedback for smooth execution and memorable experiences.",
-        id: "Berkoordinasi dengan tim inti untuk menyelenggarakan acara *prom* kelulusan yang dihadiri 345 peserta dengan ulasan positif atas kelancaran dan kesan acara.",
+        id: "Bekerja sama dengan tim inti dalam menyelenggarakan acara prom kelulusan yang diikuti 345 peserta, serta meraih apresiasi positif atas kelancaran dan keberhasilan acara.",
       },
     ],
   },
