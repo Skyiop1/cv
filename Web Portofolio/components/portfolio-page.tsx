@@ -401,7 +401,17 @@ function HomeContent({ language }: { language: Language }) {
                 </span>
                 <span className="experience-main">
                   <strong>{item.organization}</strong>
-                  <span>{localize(item.role, language)}</span>
+                  <span>
+                    {localize(item.role, language)}
+                    {item.type && (
+                      <>
+                        {" "}·{" "}
+                        <span className="experience-type">
+                          {localize(item.type, language)}
+                        </span>
+                      </>
+                    )}
+                  </span>
                 </span>
                 <span className="experience-period">
                   {item.location} · {item.period}

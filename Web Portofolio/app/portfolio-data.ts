@@ -30,6 +30,7 @@ export const experiences = [
       en: "Coordinator of BSI Scholarship Inspirasi UNAIR",
       id: "Koordinator BSI Scholarship Inspirasi UNAIR",
     },
+    type: { en: "Contract", id: "Kontrak" },
     period: "Nov 2025 — Present",
     location: "Surabaya",
     tags: [
@@ -67,6 +68,7 @@ export const experiences = [
       en: "Marketing & Partnerships Associate",
       id: "Marketing & Partnerships Associate",
     },
+    type: { en: "Part-time", id: "Part-time" },
     period: "Jun 2025 — Mar 2026",
     location: "Surabaya",
     tags: [
@@ -97,6 +99,7 @@ export const experiences = [
   {
     organization: "American Corner",
     role: { en: "Media Production", id: "Produksi Media" },
+    type: { en: "Internship", id: "Magang" },
     period: "Dec 2024 — Dec 2025",
     location: "Surabaya",
     tags: [
@@ -126,6 +129,7 @@ export const experiences = [
   {
     organization: "Organizing Committee, Class of 2024 SMA 1 Tawangsari",
     role: { en: "Treasurer", id: "Bendahara" },
+    type: { en: "Committee", id: "Kepanitiaan" },
     period: "Nov 2023 — May 2024",
     location: "Sukoharjo",
     tags: ["Budgeting", "Cost Optimization", "Financial Reporting"],
@@ -154,6 +158,7 @@ export const experiences = [
       en: "Screenwriter & Story Development",
       id: "Penulis Skenario & Pengembangan Cerita",
     },
+    type: { en: "Committee", id: "Kepanitiaan" },
     period: "Dec 2023 — Jul 2024",
     location: "Sukoharjo",
     tags: ["Storytelling", "Production", "Team Coordination"],
@@ -179,6 +184,7 @@ export const experiences = [
   {
     organization: "Rohani Islam · SMA 1 Tawangsari",
     role: { en: "Public Relations", id: "Hubungan Masyarakat" },
+    type: { en: "Organization", id: "Organisasi" },
     period: "Apr 2023 — Nov 2023",
     location: "Sukoharjo",
     tags: [
